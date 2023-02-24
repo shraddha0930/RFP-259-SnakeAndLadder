@@ -11,6 +11,7 @@ public class SnakeAndLadder {
         int START_POSITION = 0;
         int NEW_POSITION = 0;
         int WIN_POSITION = 100;
+        int count=0;
 
         System.out.println("Starting position of Player is:" + START_POSITION);
 
@@ -21,6 +22,8 @@ public class SnakeAndLadder {
 
             int CheckOption = (int) (Math.random() * 3);
             System.out.println("Checkoption is:" +CheckOption);
+
+            count++;
 
             switch (CheckOption) {
                 case NO_PLAY:
@@ -45,6 +48,6 @@ public class SnakeAndLadder {
             }
             System.out.println("Now Player at " + START_POSITION + "th" + " Position");
         }
-        System.out.println("Player won!!");
+        System.out.println("Player won!! \nAfter Die Rolled "+ count +" Times");
     }
 }
