@@ -26,7 +26,7 @@ public class SnakeAndLadder {
                 NEW_POSITION = DieRoll ;
                 break;
             case SNAKE :
-                NEW_POSITION = NEW_POSITION-DieRoll ;
+                NEW_POSITION = -DieRoll ;
                 break;
         }
 
