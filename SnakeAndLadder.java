@@ -10,7 +10,7 @@ public class SnakeAndLadder {
         int START_POSITION = 0;
         int NEW_POSITION = 0;
 
-        System.out.println("Starting postion is:" +START_POSITION);
+        System.out.println("Starting position is:" +START_POSITION);
 
         int DieRoll = (int) (Math.random()*6)+1;
         System.out.println("After rolling die number is:" +DieRoll);
@@ -36,7 +36,7 @@ public class SnakeAndLadder {
         {
             START_POSITION = 0;
         }
-        System.out.println("Your are Now at "+START_POSITION+"th"+" Position");
+        System.out.println("Now at "+START_POSITION+"th"+" Position");
 
     }
 }
