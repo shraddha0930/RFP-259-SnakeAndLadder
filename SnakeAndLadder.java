@@ -12,7 +12,7 @@ public class SnakeAndLadder {
         int NEW_POSITION = 0;
         int WIN_POSITION = 100;
 
-        System.out.println("Starting postion is:" + START_POSITION);
+        System.out.println("Starting position is:" + START_POSITION);
 
         while (START_POSITION <= WIN_POSITION) {
 
@@ -38,7 +38,7 @@ public class SnakeAndLadder {
             if (START_POSITION < 0) {
                 START_POSITION = 0;
             }
-            System.out.println("Your are Now at " + START_POSITION + "th" + " Position");
+            System.out.println("Now at " + START_POSITION + "th" + " Position");
 
         }
     }
